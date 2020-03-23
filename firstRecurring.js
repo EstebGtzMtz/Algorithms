@@ -1,5 +1,5 @@
 // Google Excersice Interview:
-// Create a function that find the firstRecurring character with given string
+// Create a function that find the firstRecurring character with a given string
 
 const firstRecurring = givenString => {
 
