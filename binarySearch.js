@@ -17,7 +17,6 @@ const binarySearch = (target, nums) => {
         if (guessValue > target) {
             ceilingIndex = guessIndex;
         } else {
-
             floorIndex = guessIndex;
         }
     }
