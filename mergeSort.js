@@ -17,10 +17,6 @@ const mergeSort = arrayToSort => {
     let currentRightIndex = 0;
 
     while (sortedArray.length < left.length + right.length) {
-
-        // sortedLeft's first element comes next
-        // if it's less than sortedRight's first
-        // element or if sortedRight is exhausted
         if (currentLeftIndex < left.length && (currentRightIndex === right.length || sortedLeft[currentLeftIndex] < sortedRight[currentRightIndex])) {
             sortedArray.push(sortedLeft[currentLeftIndex]);
             currentLeftIndex += 1;
