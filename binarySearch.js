@@ -15,12 +15,9 @@ const binarySearch = (target, nums) => {
         }
 
         if (guessValue > target) {
-
-            // Target is to the left, so move ceiling to the left
             ceilingIndex = guessIndex;
         } else {
 
-            // Target is to the right, so move floor to the right
             floorIndex = guessIndex;
         }
     }
